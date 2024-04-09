@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="/web.css">
+    <title>Add to cart</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">DU<span>Eng</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Items
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Shoes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Bags</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+      <section class="cart-section">
+        <div class="cart-item">
+            <div class="cart-img">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <img src="shoes2.jpeg" alt="">
+            </div>
+            <div class="cart-details">
+                <h3 class="product_name">NIKE Air Jordan 1</h3>
+                <p class="product-description">NIKE Air Jordan 1 Low SE UNISEX Trainers DR0502 
+                    Sneakers Shoes
+                     (UK 5 US 7.5 EU 38.5, White Black White 101)</p>
+                     <p>This is a Unique Gift!</p>
+                     <p class="cart-p">Size<span>: 8.5</span></p>
+                     <p class="cart-p">Color<span>: Jordan Black Nike Sneakers</span></p>
+                     <div class="cart-select">
+                      <select  class="select-option" id="">
+                        <option value="">Select Qty:</option>
+                        <option value="">Qty:1</option>
+                        <option value="">Qty:2</option>
+                        <option value="">Qty:3</option>
+                        <option value="">Qty:4</option>
+                       </select>
+
+                       <select  class="select-option" id="">
+                        <option value="">Select Color:</option>
+                        <option value="">Black</option>
+                        <option value="">White</option>
+
+                       </select>
+                     </div>
+            </div>
+            <div class="cart-price">
+                <p class="product-price">£168.99</p>
+            </div>
+        </div>
+        <div class="cart-buttons">
+          <a href="/" type="button" class="btn btn-danger">Delete</a>
+          <span><a href="order.html" type="button" class="btn btn-warning">Checkout</a></span>
+        </div>
+      </section>
+      <section class="cart-section">
+        <div class="cart-item">
+            <div class="cart-img">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <img src="shirt.jpeg" alt="">
+            </div>
+            <div class="cart-details">
+                <h3 class="product_name">Nike shirt</h3>
+                <p class="product-description">Black Adult Nike Shirt</p>
+                     <p>This is a Unique Gift!</p>
+                     <p class="cart-p">Size<span>: 8.5</span></p>
+                     <p class="cart-p">Color<span>:  Black Nike Shirt</span></p>
+                     <div class="cart-select">
+                      <select  class="select-option" id="">
+                        <option value="">Select Qty:</option>
+                        <option value="">Qty:1</option>
+                        <option value="">Qty:2</option>
+                        <option value="">Qty:3</option>
+                        <option value="">Qty:4</option>
+                       </select>
+
+                       <select  class="select-option" id="">
+                        <option value="">Select Color:</option>
+                        <option value="">Black</option>
+                        <option value="">White</option>
+
+                       </select>
+                     </div>
+            </div>
+            <div class="cart-price">
+                <p class="product-price">£13.99</p>
+            </div>
+            
+        </div>
+        <div class="cart-buttons">
+          <a href="/" type="button" class="btn btn-danger">Delete</a>
+          <span><a href="order.html" type="button" class="btn btn-warning">Checkout</a></span>
+        </div>
+      </section>
+      <section class="cart-section">
+        <div class="cart-item">
+            <div class="cart-img">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <img src="cap.jpeg" alt="">
+            </div>
+            <div class="cart-details">
+                <h3 class="product_name">Northface Cap</h3>
+                <p class="product-description">Black Unisex Northface Cap</p>
+                     <p>This is a Unique Gift!</p>
+                     <p class="cart-p">Size<span>: 8.5</span></p>
+                     <p class="cart-p">Color<span>:Black Unisex Northface Cap</span></p>
+                     <div class="cart-select">
+                      <select  class="select-option" id="">
+                        <option value="">Select Qty:</option>
+                        <option value="">Qty:1</option>
+                        <option value="">Qty:2</option>
+                        <option value="">Qty:3</option>
+                        <option value="">Qty:4</option>
+                       </select>
+
+                       <select  class="select-option" id="">
+                        <option value="">Select Color:</option>
+                        <option value="">Black</option>
+                        <option value="">White</option>
+
+                       </select>
+                     </div>
+            </div>
+            <div class="cart-price">
+                <p class="product-price">£8</p>
+            </div>
+        </div>
+      </section>
+      <div class="cart-buttons">
+        <a href="/" type="button" class="btn btn-danger">Delete</a>
+        <span><a href="order.html" type="button" class="btn btn-warning">Checkout</a></span>
+        
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="address">
+              <h3>Address:</h3>
+              <p>54 Coporation Road</p>
+              <p>NP19 4TH</p>
+              <p>Newport</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="contacts">
+              <h3>Contacts:</h3>
+              <p>ugochukwuderek@gmail.com</p>
+              <p>+44 567 123</p>
+              <p>+44 765 875</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social">
+              <h3>Social Media Contact:</h3>
+              <ul>
+                <li class="whatsapp"><i class="fa fa-whatsapp"></i></li>
+                <li class="facebook"><i class='fa fa-facebook'></i></li>
+                <li class="twitter"><i class="fa fa-twitter" ></i></li>
+                <li class="instagram"><i class="fa fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="quicklinks">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="">New Arrival</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">Customer Help</a></li>
+                <li><a href="">Promo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+
+
+
+
+</body>
+</html>
